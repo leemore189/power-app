@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 
 // ================== CONFIG ==================
 const PORT = 3000;
-const MONGO_URI = "mongodb://127.0.0.1:27017/bike_power_payg";
+const MONGO_URI = "mongodb+srv://bikepower:bikepower@cluster0.0szvgk3.mongodb.net/?appName=Cluster0";
 
 // ================== DATABASE ==================
 mongoose.connect(MONGO_URI)
